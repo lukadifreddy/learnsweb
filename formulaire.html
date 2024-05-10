@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="learns.jpg" alt="logo site Learns-Web" title="logo site Learns-Web"></a>
+    </header>
+
+    <div>
+        <div>
+            <form action="">
+                <div>
+                    <h3>General information</h3>
+                    <div>
+                        <label for="name">name</label>
+                    <input type="text" name="name" id="name" placeholder="Insert your name" required>
+                    <br>
+                    <br>
+                    <label for="prenom">Prenom</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Insert your first name" required>
+                    <br>
+                    <br>
+                    <label for="Email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="Insert your mail">
+                    <br>
+                    <br>
+                    <label for="Password">Password</label>
+                    <input type="text" name="Password" id="Password" required placeholder="Insert your password">
+                    <br>
+                    <br>
+                    <label for="Confirm your passwordassword">Confirm your password</label>
+                    <input type="text" name="Confirm your password" id="Confirm your password" required placeholder="Confirm your password">
+                    <br>
+                    <br>
+                    <label for="sexe">Sexe</label>
+                    <label for="homme">Homme</label>
+                    <input type="radio" value="homme" name="sexe">
+                    <label for="femme">femme</label>
+                    <input type="radio" value="femme" name="sexe">
+                    <label for="autre">Autre</label>
+                    <input type="radio" value="autre" name="sexe">
+                    <label for="pas dire">Pas dire</label>
+                    <input type="radio" value="pas dire" name="sexe">
+                    <br>
+                    <br>
+                    <label for="Age">Age</label>
+                    <label for="12-18">12-18</label>
+                    <input type="radio" value="12-18" name="Age">
+                    <label for="19-25">19-25</label>
+                    <input type="radio" value="19-25" name="Age">
+                    <label for="26-35">26-35</label>
+                    <input type="radio" value="26-35" name="Age">
+                    <label for="pas dire">35-45</label>
+                    <input type="radio" value="pas dire" name="Age">
+                    <br>
+                    <br>
+                    </div>
+                    
+                </div>
+                <div> 
+                    <h3>Contact Details</h3>
+                    <div>
+                        <label for="Street_Nr">Street_Nr</label>
+                        <input type="text" name="Street_Nr" id="Street_Nr">
+                        <br>
+                        <br>
+                        <label for="Town">Town</label>
+                        <input type="text" name="Town" id="Town">
+                        <br>
+                        <br>
+                        <label for="Country">Country</label>
+                        <select name="Country" id="Country">
+                            <option value="">SELECT COUNTRY PLEASE</option>
+                            <option value="RDC">RDC</option>
+                            <option value="USA">USA</option>
+                            <option value="RUSSIE">RUSSIE</option>
+                            <option value="FRANCE">FRANCE</option>
+                            <option value="ALLEMAGNE">ALLEMAGNE</option>
+                            <option value="CHINE">CHINE</option>
+                            <option value="SUD AFRIQUE">SUD AFRIQUE</option>
+                            <option value="ITALIE">ITALIE</option>
+                            <option value="ARGENTINE">ARGENTINE</option>
+                            <option value="COTE D'IVOIRE">COTE D'IVOIRE</option>
+                            <option value="ISRAEL">ISRAEL</option>
+                          </select>
+                        <br>
+                        <br>
+                        <label for="">I do accept the <a href="">Terms and Conditions</a> of your site</label>
+                        <input type="checkbox" >
+                          <br>
+                          <br>
+                        <a href=""><button>Send the form</button></a>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
